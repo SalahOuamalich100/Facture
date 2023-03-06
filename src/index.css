@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* reset */
+
+
+
+/* table */
+
+table { font-size: 75%; table-layout: fixed; width: 100%; }
+table { border-collapse: separate; border-spacing: 2px; }
+th, td { border-width: 1px; padding: 0.5em; text-align: left; }
+th, td { border-radius: 0.25em; border-style: solid; }
+th { background: #EEE; border-color: #BBB; }
+td { border-color: #DDD; }
+
+.hoverChange:hover {
+  visibility: hidden;
+}
